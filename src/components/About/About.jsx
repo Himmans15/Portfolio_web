@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './About.module.css';
 import { getImageUrl } from "../../utils";
-
+ 
 const About = () => {
   return (
     <section className={styles.container} id='about'>
