@@ -1,0 +1,49 @@
+@import "../../vars.css";
+
+.container{
+    margin-top: 76px;
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.title{
+    font-size: 32px;
+    color: var(--color-text);
+    letter-spacing: 1.75px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.projects{
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+.morebtn{
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+}
+.btn{
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 100px;
+    background-color: var(--color-primary);
+    padding: 5px 22px;
+    transition: background-color 0.3s ease, tarnsfrom 0.2s ease;
+}
+.btn:hover{
+    background-color: var(--color-secondary);
+    transform: scale(1.05);
+}
+.btn:focus {
+    outline: 3px solid #80e27e; 
+  }
